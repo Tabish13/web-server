@@ -1,7 +1,7 @@
 
 var middleware = {
 reuireAuthenctication: function (req, res, next) {
-	console.log('private route hits!');
+	console.log('private route hits!!');
 	next();
 },
 logger: function (req, res, next) {
